@@ -28,7 +28,7 @@ You'll need to supply a facebook authentication token and an associated facebook
 You can get those manually by getting to this link:  
 https://www.facebook.com/dialog/oauth?client_id=464891386855067&redirect_uri=https://www.facebook.com/connect/login_success.html&scope=basic_info,email,public_profile,user_about_me,user_activities,user_birthday,user_education_history,user_friends,user_interests,user_likes,user_location,user_photos,user_relationship_details&response_type=token  
 Sign in, then pick up your authentication token from the **access_token** param in the url.  
-Get your facebook user id with this [online tool](http://findmyfacebookid.com/) by providing your profile url.
+Get your facebook user id with this [online tool](https://findmyfbid.in/) by providing your profile url.
 
 Tinderbot also provides a script to get your facebook credentials.
 ```ruby
